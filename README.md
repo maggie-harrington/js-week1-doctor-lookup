@@ -99,9 +99,7 @@ Copyright (c) 2017 Maggie Harrington
 ###### NPM / Gulp:
 
 
-* `npm init` (sets up npm, creates package.json)
-
-* Enter title etc when prompted
+* `npm init` (enter title etc when prompted - sets up npm, creates package.json)
 
 * Run the following installs:
 
@@ -137,7 +135,7 @@ Copyright (c) 2017 Maggie Harrington
 
 * `npm install bower -g` (installs bower - may not always be necessary)
 
-* `bower init` (sets up bower, creates bower.json)
+* `bower init` (enter info when prompted - sets up bower, creates bower.json)
 
 * Run the following installs:
 
@@ -149,13 +147,15 @@ Copyright (c) 2017 Maggie Harrington
 
   `npm install bower-files --save-dev`
 
+* Add lib variable, and bowerJS, bowerCSS, bower tasks to gulpfile.js
+
 * Include in index.html head:
 
   `<link href="build/css/vendor.css" rel="stylesheet" type="text/css">`
 
   `<script src="build/js/vendor.min.js" type="text/javascript"></script>`
 
-* `gulp bowerJS` -> run to add new JS front-end dependencies
+* `gulp bower` -> run to add new bower dependencies
 
 
 ###### BrowserSync

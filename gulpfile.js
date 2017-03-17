@@ -91,7 +91,7 @@ gulp.task('serve', function() {
   gulp.watch(['scss/*.scss'], ['cssBuild']);
 });
 
-gulp.task('jsBuild', ['jsBrowserify, jshint'], function() {
+gulp.task('jsBuild', ['jsBrowserify', 'jshint'], function() {
   browserSync.reload();
 });
 

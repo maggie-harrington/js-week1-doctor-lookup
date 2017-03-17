@@ -80,7 +80,7 @@ Copyright (c) 2017 Maggie Harrington
 * Make sure you are in top level of project directory
 * Initialize git repository and add remote
 * Create sub directories: js, scss
-* Create initial files: index.html, scss/styles.scss, js/doctor.js, js/doctor-interface.js
+* Create initial files: index.html, scss/styles.scss, js/doctor.js, js/doctor-interface.js, gulpfile.js
 * Create .gitignore file containing the following:
 
   `node_modules/`
@@ -101,7 +101,7 @@ Copyright (c) 2017 Maggie Harrington
 
 * `npm init` (sets up npm, creates package.json)
 
-* Enter title etc when prompted (creates gulpfile.js)
+* Enter title etc when prompted
 
 * Run the following installs:
 
